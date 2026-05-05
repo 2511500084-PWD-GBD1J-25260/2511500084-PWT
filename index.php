@@ -150,6 +150,12 @@ $page = isset($_GET['page']) ? $_GET['page'] : '';
                 <p>Detail Jadwal</p>    
               </a>
             </li>
+            <li class="nav-item">
+              <a href="index.php?page=ganti_password" class="nav-link <?= ($page=='ganti_password') ? 'active' : '' ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Ganti Password</p>    
+              </a>
+            </li>
           </ul>
         </li>
 
@@ -166,7 +172,6 @@ $page = isset($_GET['page']) ? $_GET['page'] : '';
             <p>Logout</p>
           </a>
         </li>
-
       </ul>
     </nav>
   </div>
