@@ -156,8 +156,15 @@ $page = isset($_GET['page']) ? $_GET['page'] : '';
                 <p>Ganti Password</p>    
               </a>
             </li>
+
+            
+            <li class="nav-item">
+      <a href="index.php?page=skripsi_2511500084" class="nav-link" <?= ($page=='skripsi_2511500084') ? 'active' : '' ?>">
+        <i class="far fa-circle nav-icon"></i>
+        <p>Skripsi</p>
+      </a>
+    </li>
           </ul>
-        </li>
 
         <li class="nav-item">
           <a href="#" class="nav-link">
